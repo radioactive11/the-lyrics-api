@@ -6,4 +6,3 @@ requests
 pydantic
 uvicorn[standard]
 gunicorn
-uvloop
