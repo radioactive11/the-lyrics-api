@@ -1,0 +1,9 @@
+lxml
+fastapi
+uvicorn
+bs4
+requestsfastapi==0.52.0
+pydantic
+uvicorn[standard]
+gunicorn
+uvloop

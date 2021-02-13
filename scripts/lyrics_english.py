@@ -18,4 +18,5 @@ def fetch_lyrics(artist_name, song_name):
             return {"Error": "Not found"}
         
     except Exception as e:
+        print(e)
         return {"Error": e}
