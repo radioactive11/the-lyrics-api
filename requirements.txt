@@ -1,8 +1,7 @@
-lxml
-fastapi
-uvicorn
+fastapi==0.52.0
+pydantic
 bs4
 requests
-pydantic
+lxml
 uvicorn[standard]
 gunicorn
