@@ -14,7 +14,8 @@ def fetch_lyrics(artist_name, song_name):
             lyrics = divs[1].text
             lyrics = lyrics[2: -1]
             return {"lyrics": lyrics}
-        except:
+        except Exception as e:
+            print(e)
             return {"Error": "Not found"}
         
     except Exception as e:
